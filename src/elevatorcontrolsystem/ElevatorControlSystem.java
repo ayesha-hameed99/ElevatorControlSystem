@@ -130,7 +130,7 @@ class level{
         delay(1000);}
        // System.out.println("Level "+level+" arrived");
          Beep();
-         delay(600);
+      //   delay(600);
     }
     
      void MoveDown(){
@@ -192,13 +192,13 @@ class level{
 }
 
 
-interface user{
+/*interface user{
     void Beep();
     void MoveUp(int l);
     void MoveDown();
     void Weight();
     void displayLevel();
-}
+} */
 
 public class ElevatorControlSystem {
 
@@ -218,7 +218,7 @@ public class ElevatorControlSystem {
     if(w.Weight()){
         b.close();
         l.displayLevel();
-        	l.askPassengerFloor(w.p);
+        	//l.askPassengerFloor(w.p);
                 l.floorList(w.p);
                 l.initialize_elevator();
 			
