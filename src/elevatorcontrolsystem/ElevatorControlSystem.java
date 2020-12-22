@@ -192,13 +192,13 @@ class level{
 }
 
 
-interface user{
+/*interface user{
     void Beep();
     void MoveUp(int l);
     void MoveDown();
     void Weight();
     void displayLevel();
-}
+}*/
 
 public class ElevatorControlSystem {
 
